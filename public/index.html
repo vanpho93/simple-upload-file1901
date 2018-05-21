@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Upload Files</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h3>Upload a file</h3>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input placeholder="Enter your email" name="email" />
+        <br>
+        <input type="file" name="avatar" />
+        <br>
+        <button>Upload</button>
+    </form>
+</body>
+</html>
